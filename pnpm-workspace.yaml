@@ -1,0 +1,7 @@
+packages:
+  - .
+
+# Deliberately allow the dev dependency's lifecycle script.  This is the
+# condition that exposes pnpm 12's incorrect production-install behavior.
+allowBuilds:
+  'dev-postinstall-pkg@file:dev-postinstall-pkg': true

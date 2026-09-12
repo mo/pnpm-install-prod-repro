@@ -1,0 +1,12 @@
+{
+  "name": "pnpm-install-prod-repro",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@12.4.1",
+  "dependencies": {
+    "runtime-pkg": "file:./runtime-pkg"
+  },
+  "devDependencies": {
+    "dev-postinstall-pkg": "file:./dev-postinstall-pkg"
+  }
+}
